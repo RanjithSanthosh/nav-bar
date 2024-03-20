@@ -1,0 +1,42 @@
+:root{
+    --blue:#60A3AB;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    background-color: #60A3AB;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    align-items: center;
+    padding: 10px 20px;
+}
+header ul{
+    display: flex;
+    text-decoration: none;
+    
+}
+header ul li{
+    margin-right: 20px;
+}
+header a{
+    text-decoration: none;
+    color: white;
+}
+ul li{
+    list-style: none;
+    
+}
+ul li a:hover{
+    color: black;
+    
+}
+.head{
+    font-weight: bold;
+    
+}
+.head:hover{
+    cursor: pointer;
+}
